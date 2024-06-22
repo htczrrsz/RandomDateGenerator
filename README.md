@@ -22,6 +22,6 @@
 
 **-features**: This directory holds our Gherkin feature files, where define test scenarios in a human-readable format.
 
-**-target**: When we run our tests in CukesRunner, some reports create in target file such as ExtentPdf and SparkReport.
+**-target**: When we run our tests, some reports create in target file such as ExtentPdf and SparkReport.
 
 **-pom.xml**: This is the Maven project configuration file that specifies dependencies and other project settings.
