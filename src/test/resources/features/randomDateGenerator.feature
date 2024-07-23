@@ -1,6 +1,6 @@
-@allTests @UI
+@allTests @UI @regression
 Feature: Random Date Generator
-
+@smoke
   Scenario: Verify Functionality of "How Many Dates To Generate" Area
     When User enters 5 dates to generate
     And User clicks on Generate Random Date button
