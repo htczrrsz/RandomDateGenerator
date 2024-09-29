@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+tools {
+        maven 'MAVEN_HOME'  // Jenkins'te tanımladığınız Maven ismi
+    }
     stages {
         stage('Clone Repository') {
             steps {
