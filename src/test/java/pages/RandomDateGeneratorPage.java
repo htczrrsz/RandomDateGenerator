@@ -123,7 +123,7 @@ public class RandomDateGeneratorPage extends CommonPage {
             System.out.println("Wrong date format " + e.getMessage());
         }
     }
-    //draft deneme
+    //draft deneme 2
 
 }
 
