@@ -35,5 +35,14 @@ tools {
         always {
             echo 'Pipeline completed!'
         }
-    }
+        success {
+                mail to: 'qauserhatice@gmail.com',
+                     subject: "Pipeline Success: ${currentBuild.fullDisplayName}",
+                     body: "Your build was successful!"
+            }
+            failure {
+                mail to: 'qauserhatice@gmail.com',
+                     subject: "Pipeline Failed: ${currentBuild.fullDisplayName}",
+                     body: "Your build has failed."
+            }
 }
