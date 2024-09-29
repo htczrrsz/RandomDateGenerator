@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/kullaniciadi/projeadi.git'
+                git 'https://github.com/htczrrsz/RandomDateGenerator.git'
             }
         }
         stage('Build') {
