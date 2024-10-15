@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+JenkinsFile
 
 ### IntelliJ IDEA ###
 .idea/misc.xml
