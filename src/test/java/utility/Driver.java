@@ -105,6 +105,7 @@ public class Driver {
             Depending on the browser type our switch statement will determine
             to open specific type of browser/driver
              */
+
                 switch (browserType) {
 
                     case "chrome":
