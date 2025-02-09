@@ -26,9 +26,9 @@ jobs:
       - name: Run JMeter Action on a test
         uses: rbhadti94/apache-jmeter-action@v0.5.0
         with:
-          testFilePath: .github/JMeterWorkflows/RequestExamples.jmx
+          testFilePath: .github/JMeterWorkflows/jmeter.jmx
           outputReportsFolder: reports/
-          args: "-Juser_count=${{ github.action.input.virtual_user }} -Jramp_up_time=${{ github.action.input.ramp_up_time }} -Jloop_count=${{ github.action.input.loop_count }} "
+          args: "-Juser_count=${{ github.action.input.virtual_user }} -Jramp_up_time=${{ github.action.input.ramp_up_time }} -Jloop_count=${{ github.action.input.loop_count }}"
 
       - uses: actions/upload-artifact@v4
         with:
